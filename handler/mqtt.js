@@ -9,6 +9,9 @@ broker.on('connect', function () {
 broker.on('disconnect', function () {
     console.log("MQTT disconnect");
 })
+broker.on('error', function (error) {
+    console.log('error' + error);
+})
 broker.on('reconnecting', function () {
     console.log("MQTT reconnecting");
 })
