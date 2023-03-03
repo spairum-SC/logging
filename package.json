@@ -1,6 +1,6 @@
 {
   "name": "logging",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Ini adalah aaplikasi yang dibuat untuk logging aaplikasi spairum yang di intrgasikan dengan Discord mengunakan metode Fire and Forget mengunakan protkol mqtt",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,9 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+
+  "author": "Fakhry Hizballah",
+  "license": "spairum.my.id",
   "dependencies": {
     "discord-webhook-node": "^1.1.8",
     "dotenv": "^16.0.1",
@@ -25,4 +26,5 @@
     "url": "https://github.com/spairum-SC/logging/issues"
   },
   "homepage": "https://github.com/spairum-SC/logging#readme"
+  "description": ""
 }
